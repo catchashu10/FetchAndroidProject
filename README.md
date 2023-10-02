@@ -19,6 +19,7 @@ This is a sample project for displaying items grouped by list ID in an expandabl
     Navigate to the cloned project directory and select it.
 
 **3. Run the Application:**
+    Run Gradle Sync.
     After the project is opened and indexed, press the green triangular "Run" button at the top of Android Studio, or use the Shift + F10 shortcut to run the project on an emulator or connected Android device.
 
 **4. Build the APK:**
