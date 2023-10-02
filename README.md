@@ -33,3 +33,11 @@ This is a sample project for displaying items grouped by list ID in an expandabl
 2. Fetches data from a remote server asynchronously.
 3. Filters out items with null or empty names.
 4. Sorts the items in ascending order based on their names within each list ID group.
+
+
+## Approach
+1. **Data Retrieval**: Using OkHttp library to perform network requests to fetch JSON data.
+2. **Data Processing**: Utilizing Gson for JSON parsing and Kotlin’s built-in functions for data filtering, sorting, and transformation.
+3. **ExpandableView & Adapter Design**: Implementing a Expandable with an Adapter that uses different view types for headers and items, allowing for the creation of expandable lists.
+4. **ViewHolder Pattern**: Utilizing the ViewHolder pattern within the Adapter for efficient recycling of views and reducing memory usage.
+5. **User Interface Design**: Employing Material Design principles for aesthetic UI representation, including appropriate layouts, colors, and fonts.
